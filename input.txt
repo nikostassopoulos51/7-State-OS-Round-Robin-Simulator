@@ -1,0 +1,15 @@
+Quantum = 10
+end_time = 50
+
+initial_running = P1
+initial_ready = P2,P3
+
+queries = 12,24,31
+
+6,P1,IO_REQUEST
+20,P3,IO_REQUEST
+22,P1,IO_COMPLETE
+28,P2,EXIT
+30,P3,IO_COMPLETE
+40,P1,EXIT
+45,P3,EXIT
